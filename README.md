@@ -9,10 +9,13 @@ products:
 - azure-maps
 ---
 
-
 # Azure Maps Sync Maps module
 
 An Azure Maps Web SDK module that synchronizes the cameras of two or more maps. 
+
+[Try the demo](https://azuremapscodesamples.azurewebsites.net/index.html?sample=Synchronize%20map%20views)
+
+![Azure Maps Sync Maps module](https://github.com/Azure-Samples/AzureMapsCodeSamples/raw/master/AzureMapsCodeSamples/SiteResources/screenshots/Synchronize-map-views.gif)
 
 ## Getting started
 
