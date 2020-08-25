@@ -59,7 +59,8 @@ A class that synchronizes the cameras of two or more maps.
 **Open Azure Maps Web SDK modules**
 
 * [Azure Maps Animation module](https://github.com/Azure-Samples/azure-maps-animations)
-* [Azure Maps Services UI module](https://github.com/Azure-Samples/azure-maps-sync-maps)
+* [Azure Maps Geolocation Control module](https://github.com/Azure-Samples/azure-maps-geolocation-control)
+* [Azure Maps Services UI module](https://github.com/Azure-Samples/azure-maps-services-ui)
 
 **Additional projects**
 
@@ -80,7 +81,7 @@ A class that synchronizes the cameras of two or more maps.
 ## Contributing
 
 We welcome contributions. Feel free to submit code samples, file issues and pull requests on the repo and we'll address them as we can. 
-Learn more about how you can help on our [Contribution Rules & Guidelines](https://github.com/Azure-Samples/azure-maps-sync-map/blob/master/CONTRIBUTING.md). 
+Learn more about how you can help on our [Contribution Rules & Guidelines](https://github.com/Azure-Samples/azure-maps-sync-maps/blob/master/CONTRIBUTING.md). 
 
 You can reach out to us anytime with questions and suggestions using our communities below:
 * [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-maps.html)
@@ -95,4 +96,4 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 
 MIT
  
-See [License](https://github.com/Azure-Samples/azure-maps-sync-map/blob/master/LICENSE.md) for full license text.
+See [License](https://github.com/Azure-Samples/azure-maps-sync-maps/blob/master/LICENSE.md) for full license text.

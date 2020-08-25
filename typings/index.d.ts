@@ -12,17 +12,19 @@ declare namespace atlas {
     export interface MapSynchronizer {
 
         /** Disposes the map synchronizer. */
-        public dispose();
+        dispose();
 
         /**
          * Get sthe enabled state.
          */
-        public isEnabled(): boolean;
+        isEnabled(): boolean;
 
         /** Disables the synchronization of the maps. */
-        public disable(): void;
+        disable(): void;
 
         /** Enables the synchronization of the maps. */
-        public enable(): void;
+        enable(): void;
     }
 }
+
+export = atlas;

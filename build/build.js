@@ -1,7 +1,5 @@
 const pkg = require("../package.json");
 const fs = require("fs-extra");
-const less = require("less");
-const LessPluginCleanCss = require("@wikimedia/less-plugin-clean-css");
 const path = require("path");
 const { rollup } = require("rollup");
 const commonjs = require("rollup-plugin-commonjs");
