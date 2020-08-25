@@ -1,13 +1,7 @@
-## [project-title] Changelog
+## Azure Maps Sync Maps module Changelog
 
-<a name="x.y.z"></a>
-# x.y.z (yyyy-mm-dd)
+<a name="0.0.1"></a>
+# 0.0.1 (2020-08-25)
 
 *Features*
-* ...
-
-*Bug Fixes*
-* ...
-
-*Breaking Changes*
-* ...
+* `syncMap static function added to `atlas` namespace.
