@@ -59,7 +59,7 @@ A class that synchronizes the cameras of two or more maps.
 **Open Azure Maps Web SDK modules**
 
 * [Azure Maps Animation module](https://github.com/Azure-Samples/azure-maps-animations)
-* [Azure Maps Services UI module](https://github.com/Azure-Samples/azure-maps-sync-map)
+* [Azure Maps Services UI module](https://github.com/Azure-Samples/azure-maps-sync-maps)
 
 **Additional projects**
 
