@@ -50,7 +50,7 @@ let rollupError = false;
 
     // File name and path for non-minified browser js
     const outFilePath = `${distDirPath}/azure-maps-sync-maps.js`;
-    const outMinFilePath = `${distDirPath}/azure-maps-sync-maps.mins.js`;
+    const outMinFilePath = `${distDirPath}/azure-maps-sync-maps.min.js`;
 
     const inputPath = "./js/index.js";
 
@@ -149,8 +149,9 @@ let rollupError = false;
     rollupInputOps.plugins.push(uglify());
 
     // Rollup minified version.
+    const minifiedLicense = "/* MIT License - Copyright (c) Microsoft Corporation. */\n\n"
     console.log("Bundling minified javascript package");
-    await bundle(rollupInputOps, rollupOutputOps, banner);
+    await bundle(rollupInputOps, rollupOutputOps, minifiedLicense);
 
     //Remove js folder.
     await fs.remove("./js");

@@ -40,7 +40,7 @@ MIT License
             this._enabled = true;
             this._maps = maps;
             //Bind sync events.
-            this._maps.forEach(function (map, index) {
+            maps.forEach(function (map, index) {
                 _this._syncEvents[index] = _this._synchronizeMaps.bind(_this, map);
             });
             //Sync all map views with the first map.
@@ -105,13 +105,13 @@ MIT License
             if (this._maps && this._enabled) {
                 var targetMaps = this._maps.filter(function (m) { return m !== baseMap; });
                 this._detachMapChangeHandlers();
-                var cam = baseMap.getCamera();
+                var cam_1 = baseMap.getCamera();
                 targetMaps.forEach(function (targetMap) {
                     targetMap.setCamera({
-                        center: cam.center,
-                        zoom: cam.zoom,
-                        bearing: cam.bearing,
-                        pitch: cam.pitch,
+                        center: cam_1.center,
+                        zoom: cam_1.zoom,
+                        bearing: cam_1.bearing,
+                        pitch: cam_1.pitch,
                         type: 'jump'
                     });
                 });
