@@ -23,7 +23,7 @@ export class MapSynchronizer {
         this._maps = maps;
 
         //Bind sync events.
-        this._maps.forEach((map, index) => {
+        maps.forEach((map, index) => {
             this._syncEvents[index] = this._synchronizeMaps.bind(this, map);
         });
 
@@ -95,10 +95,10 @@ export class MapSynchronizer {
      */
     private _synchronizeMaps(baseMap: azmaps.Map) {
         if (this._maps && this._enabled) {
-            var targetMaps = this._maps.filter(m => { return m !== baseMap; });
+            let targetMaps = this._maps.filter(m => { return m !== baseMap; });
 
             this._detachMapChangeHandlers();
-            var cam = baseMap.getCamera();
+            let cam = baseMap.getCamera();
 
             targetMaps.forEach(function (targetMap) {
                 targetMap.setCamera({
