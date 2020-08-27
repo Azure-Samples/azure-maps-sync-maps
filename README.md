@@ -60,6 +60,7 @@ A class that synchronizes the cameras of two or more maps.
 
 * [Azure Maps Animation module](https://github.com/Azure-Samples/azure-maps-animations)
 * [Azure Maps Geolocation Control module](https://github.com/Azure-Samples/azure-maps-geolocation-control)
+* [Azure Maps Fullscreen Control module](https://github.com/Azure-Samples/azure-maps-fullscreen-control)
 * [Azure Maps Services UI module](https://github.com/Azure-Samples/azure-maps-services-ui)
 
 **Additional projects**
